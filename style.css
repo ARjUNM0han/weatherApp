@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Marcellus&display=swap");
+body {
+  background: rgb(107, 154, 164);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(107, 154, 164, 1) 0%,
+    rgba(52, 90, 111, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(107, 154, 164, 1) 0%,
+    rgba(52, 90, 111, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(107, 154, 164, 1) 0%,
+    rgba(52, 90, 111, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6b9aa4",endColorstr="#345a6f",GradientType=0);
+
+  padding: 0%;
+  margin: 0%;
+}
+.weath {
+  background-color: #85aab3;
+}
+.web-font1 {
+  font-family: "Acme", sans-serif;
+}
+.web-font2 {
+  font-family: "Marcellus", serif;
+}
+.w-input {
+  border: none;
+  background-color: #6396a7;
+}
+.w-input:focus {
+  border: none;
+  color: black;
+  background-color: #6396a7;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: black;
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-box-shadow: 0 0 0px 1000px #6396a7 inset;
+}
+.w-image {
+  height: 140px;
+  width: 180px;
+}
+.temp {
+  font-weight: 100;
+  font-size: 50px;
+}
+.humidity-img {
+  height: 45px;
+  width: 40px;
+}
+.srch-btn {
+  border: 1px solid #355c70;
+}
+.srch-btn:focus {
+  border: 1px solid #355c70;
+}
+@media (min-width: 576px) {
+  .marb {
+    margin-bottom: 10rem;
+  }
+}
